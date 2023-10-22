@@ -33,6 +33,10 @@ int main()
     p1 = Degree_to_Radian(p1);
     lon2 = Degree_to_Radian(lon2);
     p2 = Degree_to_Radian(p2);
-    
+    Result = acos((sin(p1) * sin(p2) + cos(p1) * cos(p2) * cos(delta)))*Radius;
+    printf("Air distance is %lf kms \n",Result);
+
+    return 0;
+}
 
 
