@@ -10,4 +10,16 @@ int Degree_to_Radian(int num)
 
     return radian;
 }
+int main()
+{
+   
 
+    printf("Enter the longitude of Origin in Degree [ -180 to 180 ] : ");
+    scanf("%lf",&lon1);
+    printf("Enter the latitude of Origin in Degree [ -90 to 90 ] : ");
+    scanf("%lf",&p1);
+    printf("Enter the longitude of Distination in Degree [ -180 to 180 ] : ");
+    scanf("%lf",&lon2);
+    printf("Enter the latitude of Distination in Degree [ -90 to 90 ] : ");
+    scanf("%lf",&p2);
+    
