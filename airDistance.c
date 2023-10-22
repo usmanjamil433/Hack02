@@ -28,5 +28,11 @@ int main()
     printf("===================\n");
     printf("Origin : %lf %lf \n",lon1,p1);
     printf("Distination : %lf %lf \n",lon2,p2);
+    //calling Degree_to_Radian Function 
+    lon1 = Degree_to_Radian(lon1);
+    p1 = Degree_to_Radian(p1);
+    lon2 = Degree_to_Radian(lon2);
+    p2 = Degree_to_Radian(p2);
+    
 
 
